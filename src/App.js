@@ -12,11 +12,25 @@ function App() {
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
 				<div>
-					Icon:
+					Icon:{" -> "}
 					<PaymentIcon
 						id="visa"
 						icon="visa"
 						key="visa"
+						transparent={false}
+						style={{ width: 40 }}
+					/>
+					<PaymentIcon
+						id="shopify"
+						icon="shopify"
+						key="shopify"
+						transparent={false}
+						style={{ width: 40 }}
+					/>
+					<PaymentIcon
+						id="skrill"
+						icon="skrill"
+						key="skrill"
 						transparent={false}
 						style={{ width: 40 }}
 					/>
